@@ -1,0 +1,36 @@
+.FormContainer{
+   
+   height:90%;
+   width: 30%;
+   background-color: rgb(250, 250, 240);
+   border-radius: 1.5rem;
+   padding: 1rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.InnerContainer{
+   margin-bottom: 10%;
+   display: flex;
+   width: 100%;
+   gap: 1.5rem;
+   flex-direction: column;
+}
+input{
+   border-radius: 0.2rem;
+   border: 0.5px solid black;
+   height: 1.5rem;
+   padding-left: 0.5rem;
+}
+.heading{
+   color: cornflowerblue;
+   align-self: center;
+}
+
+.btn{
+   background-color: black;
+   color: white;
+   border-radius: 0.2rem;
+   padding: 0.3rem;
+}
